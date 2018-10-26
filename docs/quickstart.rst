@@ -4,12 +4,12 @@ QuickStart
 Installation
 ------------
 
-To install the library, run ``pip install madison_axi`` at the command line. Now you're ready to paint some pictures!
+To install the library, run ``pip install madison_axi`` at the command line. Now you're ready to draw some pictures!
 
 How to draw stuff on your computer screen
 -----------------------------------------
 
-Here's a short Python program that draws a box in the middle of your computer screen (and on your WaterColorBot, if it's plugged into your computer)::
+Here's a short Python program that draws a box in the middle of your computer screen (and on your AxiDraw, if it's plugged into your computer)::
 
     # Import all the functions in the `madison_axi.axi` module.
     from madison_axi.axi import *
@@ -39,7 +39,7 @@ Here's a short Python program that draws a box in the middle of your computer sc
         turn_right(90)
 
     # We've finished drawing our box!
-    # Always call cleanup() at the end # of your program.
+    # Always call cleanup() at the end of your program.
     cleanup()
 
     # Wait for the user to press Enter before exiting the program.
@@ -54,9 +54,9 @@ the beginning of your program, and that you should also call ``cleanup()`` at
 the end of your program. Aside from that, go nuts!
 
 Note: When you run your program, you'll see a small window on your screen that
-simulates what'll happen when you have the AxiDraw paint your picture.
+simulates what'll happen when you have the AxiDraw draw your picture.
 **Make sure that your picture stays within the bounds of that small window**;
-anything that you draw outside of that window will not get painted when you
+anything that you draw outside of that window will not get drawn when you
 run your program on the actual bot.
 
 To see a list of all of the different functions you can use to control the bot,
@@ -64,11 +64,11 @@ click on this link: :mod:`madison_axi`. You can also read the library's
 `source code <https://github.com/jrheard/madison_axi/blob/master/madison_axi/axi.py>`_,
 it really isn't very long.
 
-How to actually paint pictures on the AxiDraw
+How to actually draw pictures on the AxiDraw
 ---------------------------------------------------
 
 ``madison_axi`` uses a program called CNC Server to control the AxiDraw.
-In order to have your Python program paint pictures on the bot, go to the
+In order to have your Python program draw pictures on the bot, go to the
 `CNC Server README <https://github.com/techninja/cncserver/blob/master/README.md>`_ and follow
 the instructions in the **Installation** and **Running** sections. When you run CNC Server,
 be sure to specify that you've got an AxiDraw plugged in.
