@@ -4,7 +4,7 @@ long_description="This library's source code lives at https://github.com/jrheard
 
 setup(
     name="madison_axi",
-    version="0.1.13",
+    version="0.1.1",
     description="A library that allows users to directly control an AxiDraw by writing Python code.",
     long_description=long_description,
     url="http://github.com/jrheard/madison_axi",

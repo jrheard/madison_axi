@@ -47,7 +47,7 @@ def initialize():
     state['window'] = turtle.Screen()
     state['window'].setup(width=AXI_WIDTH, height=AXI_HEIGHT)
     state['turtle'] = turtle.Turtle()
-    state['turtle'].width(5)
+    state['turtle'].width(2)
     state['turtle'].speed(0)
     point_in_direction(0)
 
