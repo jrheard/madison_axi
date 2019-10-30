@@ -77,8 +77,8 @@ def move_to(x, y):
     """Moves the pen to a particular position.
 
     Arguments:
-        x - a number between -250 and 250.
-        y - a number between -180 and 180.
+        x - a number between -500 and 500.
+        y - a number between -370 and 370.
     """
     _make_cnc_request("coord/{0}/{1}".format(x, y))
     state['turtle'].goto(x, y)
@@ -142,7 +142,7 @@ def get_x():
     """Returns the pen's current x-coordinate.
 
     Return value:
-        A number between -250 and 250, represnting the pen's current horizontal position.
+        A number between -500 and 500, representing the pen's current horizontal position.
     """
     return state['turtle'].xcor()
 
@@ -150,6 +150,6 @@ def get_y():
     """Returns the pen's current y-coordinate.
 
     Return value:
-        A number between -180 and 180, representing the pen's current vertical position.
+        A number between -370 and 370, representing the pen's current vertical position.
     """
     return state['turtle'].ycor()
