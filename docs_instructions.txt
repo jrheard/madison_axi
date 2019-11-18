@@ -1,0 +1,7 @@
+bump number in setup.py to make a new version
+
+https://packaging.python.org/tutorials/packaging-projects/ to publish it to pypi
+
+wait ~30m
+go to readthedocs.org
+trigger build on madison_axi project
